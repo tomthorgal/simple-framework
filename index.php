@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+
       <div id="content">
         <div class="section">
           <h4>version 0.4.2 &raquo; 07/07/2011</h4>
@@ -90,5 +91,6 @@
             <li>basic xhtml, css, jquery (<a href="http://jquery.com/">http://jquery.com/</a>) and syntaxhighlighter (<a href="">http://code.google.com/p/syntaxhighlighter/</a> by <a href="http://alexgorbatchev.com/SyntaxHighlighter/">http://alexgorbatchev.com/SyntaxHighlighter/</a>)</li>
           </ul>
         </div>
-      </div><!-- /content -->
+      </div>
+      
 <?php include('footer.php'); ?>

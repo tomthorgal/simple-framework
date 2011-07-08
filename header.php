@@ -1,6 +1,7 @@
 <?php
   $base_url = 'http://monkey-coder.com/framework/';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

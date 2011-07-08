@@ -15,6 +15,7 @@
           result.push(args[i].replace('@', '/js/syntaxhighlighter/scripts/'));
           return result
       };
+      
       SyntaxHighlighter.autoloader.apply(null, path(
         'applescript            @shBrushAppleScript.js',
         'actionscript3 as3      @shBrushAS3.js',
