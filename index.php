@@ -1,20 +1,22 @@
 <?php include('header.php'); ?>
       <div id="content">
         <div class="section">
-					<h4>version 0.4.2 &raquo; 07/07/2011</h4>
-					<ul>
-						<li>added meta tag for mobile browser support</li>
-					</ul>
-					<pre class="brush: html">
-						<meta name="viewport" content="width=device-width, initial-scale=1.0"></pre>
-					<ul>
-						<li>changed the header to get jquery from google and fallback to local if google is offline</li>
-					</ul>
-					<pre class="brush: html">
-						<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-						<script>window.jQuery || document.write('<script src="js/jquery-1.6.1.min.js"><\/script>')</script></pre>
-				</div>
-				<div class="section">
+          <h4>version 0.4.2 &raquo; 07/07/2011</h4>
+          <ul>
+            <li>added meta tag for mobile browser support</li>
+          </ul>
+          <pre class="brush: html">
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+          </pre>
+          <ul>
+            <li>changed the header to get jquery from google and fallback to local if google is offline</li>
+          </ul>
+          <pre class="brush: html">
+            &lt;script type=&quot;text/javascript&quot; src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script&gt;window.jQuery || document.write(&#39;&lt;script src=&quot;js/jquery-1.6.1.min.js&quot;&gt;&lt;\/script&gt;&#39;)&lt;/script&gt;
+          </pre>
+        </div>
+        <div class="section">
           <h4>version 0.4.1 &raquo; 05/21/2011</h4>
           <ul>
             <li>changed the style.css to style.php</li>
@@ -52,18 +54,18 @@
           <pre class="brush: css">
             /* in /js/fancybox/jquery.fancybox.css */
             /* replaced all relative paths with full paths */
-                      
+                       
             /* eg: */
-                      
-            background-image: url('fancybox.png');
+                       
+            background-image: url(&#39;fancybox.png&#39;);
             /* replaced with: */
-            background-image: url('/js/fancybox/fancybox.png');
-                      
+            background-image: url(&#39;/js/fancybox/fancybox.png&#39;);
+                       
             /* eg: */
-                      
-            ...src='fancybox/fancy_loading.png'...
+                       
+            ...src=&#39;fancybox/fancy_loading.png&#39;...
             /* replaced with */
-            ...src='/js/fancybox/fancy_loading.png'...
+            ...src=&#39;/js/fancybox/fancy_loading.png&#39;...
           </pre>
         </div>
         <div class="section">

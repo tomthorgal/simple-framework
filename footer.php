@@ -1,11 +1,12 @@
       <div id="footer">
         <p>
-					&copy; 2010, 2011 by <a href="http://monkey-coder.com">Thomas Vollath</a><br />
-					<a href="http://monkey-coder.com/framework">Simple Framework</a>
-				</p>
-      </div><!-- /footer -->
-    </div><!-- /page-wrap -->
-    <!-- initialize syntax highlighter -->
+          &copy; 2010, 2011 by <a href="http://monkey-coder.com">Thomas Vollath</a><br />
+          <a href="http://monkey-coder.com/framework">Simple Framework</a>
+        </p>
+      </div>
+      
+    </div>
+    
     <script type="text/javascript">
       function path() {
         var args = arguments,
@@ -42,5 +43,6 @@
       ));
       SyntaxHighlighter.all()
     </script>
+    
   </body>
 </html>

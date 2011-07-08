@@ -3,30 +3,30 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
 		
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
     <title>Monkey Coder</title>
 		
-    <link rel="shortcut icon" href="<?php echo $base_url; ?>images/favicon.ico" />
+    <link rel="shortcut icon" href="<?php echo $base_url; ?>images/favicon.ico">
 		
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>css/style.php" />
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/syntaxhighlighter/styles/shCore.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/syntaxhighlighter/styles/shThemeEclipse.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>css/style.php">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/syntaxhighlighter/styles/shCore.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/syntaxhighlighter/styles/shThemeEclipse.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $base_url; ?>js/fancybox/jquery.fancybox-1.3.4.css">
 
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/jquery-1.6.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.6.1.min.js"><\/script>')</script>
     <script type="text/javascript" src="<?php echo $base_url; ?>js/syntaxhighlighter/scripts/shCore.js"></script>
     <script type="text/javascript" src="<?php echo $base_url; ?>js/syntaxhighlighter/scripts/shAutoloader.js"></script>
-    <script type="text/javascript" src="<?php echo $base_url; ?>js/fancybox/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="<?php echo $base_url; ?>js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $(".single_image").fancybox({
+        $("a.single_image").fancybox({
           'transitionIn'      :   'none', // none, fade, elastic
           'transitionOut'     :   'none', // none, fade, elastic
           'speedIn'           :   600,    // speed of the fade and elastic transitions, in milliseconds
