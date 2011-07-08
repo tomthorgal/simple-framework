@@ -1,0 +1,24 @@
+Simple Framework
+
+Version: 0.4.1
+Author: Thomas Vollath
+License: Have fun!
+Website: http://monkey-coder.com/framework
+Source: https://tomthorgal@github.com/tomthorgal/simple-framework.git
+
+Installation:
+==================================================
+
+File: ./header.php
+--------------------------------------------------
+Replace:
+	$base_url = '/framework/';
+With:
+	$base_url = '{YOUR WEBSITES URL}/';
+
+File: ./css/style.php
+--------------------------------------------------
+Replace:
+	$base_url             = 'http://monkey-coder.com/';
+With:
+	$base_url             = '{YOUR WEBSITES URL}/';
