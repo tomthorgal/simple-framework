@@ -19,6 +19,6 @@ With:
 File: ./css/style.php
 --------------------------------------------------
 Replace:
-	$base_url             = 'http://monkey-coder.com/';
+	$base_url             = 'http://monkey-coder.com/framework/';
 With:
 	$base_url             = '{YOUR WEBSITES URL}/';
