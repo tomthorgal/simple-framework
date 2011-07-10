@@ -113,7 +113,7 @@ ul#nav-right li:hover {
 /** Section elements
 -------------------------------------------------------------- */
 #content .section {
-  border-bottom: 5px solid <?php echo $section_borders; ?>;
+  border-bottom: 3px dotted <?php echo $section_borders; ?>;
   margin: 0 20px 0 20px;
   padding: 0 0 30px 0;
 }

@@ -27,13 +27,16 @@
     <script type="text/javascript" src="<?php echo $base_url; ?>js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $("a.single_image").fancybox({
-          'transitionIn'      :   'none', // none, fade, elastic
-          'transitionOut'     :   'none', // none, fade, elastic
-          'speedIn'           :   600,    // speed of the fade and elastic transitions, in milliseconds
-          'speedOut'          :   200,    // speed of the fade and elastic transitions, in milliseconds
-          'overlayShow'       :   true,   // true or false
-          'overlayOpacity'    :   0.6     // from 0 to 1
+        $("a#single_image").fancybox();
+        $("a#inline").fancybox({
+          'hideOnContentClick': true
+        });
+        $("a.group").fancybox({
+          'transitionIn'	:	'elastic',
+          'transitionOut'	:	'elastic',
+          'speedIn'		:	600, 
+          'speedOut'		:	200, 
+          'overlayShow'	:	false
         });
       });
     </script>

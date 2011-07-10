@@ -4,6 +4,7 @@
         <div class="section">
           <h4>version 0.4.2 &raquo; 07/07/2011</h4>
           <ul>
+            <li>removed ie7 script; doesn't work properly</li>
             <li>added meta tag for mobile browser support</li>
           </ul>
           <pre class="brush: html">
@@ -75,8 +76,8 @@
             <li>implemented fancybox (<a href="http://fancybox.net/">http://fancybox.net/</a>)</li>
             <li>example image:</li>
           </ul>
-          <a class="single_image" href="images/example.jpg">
-            <img src="images/example-tn.jpg" title="example picture" alt="example picture" />
+          <a id="inline" title="example picture" href="images/example.jpg">
+            <img src="images/example-tn.jpg" alt="example picture" />
           </a>
         </div>
         <div class="section">
