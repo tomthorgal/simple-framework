@@ -1,21 +1,23 @@
 <?php
+  /* This header declaration is very important. It is needed or the file
+   * won't be rendered as an actual css file to the browser.
+   * Of course you can make a SASS or LESS file out of this too, but I don't
+   * know a lot of developers using SASS or LESS yet. */
   header('Content-type: text/css; charset: UTF-8');
   
-  $head_foot_bg         = '#AF9F7B';
+  /* Why the heck do you have the $base_url in this css file?
+   * I run this simple framework mostly in subfolders or subdomains
+   * and it makes it much easier to use relative paths' to me. */
+  $base_url = 'http://monkey-coder.com/';
   
-  $navigation_bg        = '#775E43';
-  $navigation_fg        = '#F1F4F7';
-  $navigation_fg_hover  = '#251C17';
-  
-  $body_bg              = '#F1F4F7';
-  $body_a               = '#73895D';
-  $body_a_hover         = '#CB842E';
-  $section_borders      = '#AF9F7B';
-
-  $head_foot_a          = '#FFFFFF';
-  $head_foot_a_hover    = '#251C17';
-  
-  $base_url             = 'http://monkey-coder.com/framework/';
+  /* if you don't like the undescriptive $colorX variables, just do a
+   * find/replace with more descriptive names */
+  $color1 = '#AF9F7B'; /* beige, light brown; eg: header and footer bg */
+  $color2 = '#775E43'; /* dark brown; eg: navigation bg */
+  $color3 = '#EEEEEE'; /* dark white; eg: body bg */
+  $color4 = '#FFFFFF'; /* white; eg: well, white as in white */
+  $color5 = '#73895D'; /* dark gray green; eg: contents hyperlinks */
+  $color6 = '#CB842E'; /* dark gray orange; eg: contents hyperlinks hover */
 ?>
 
 /* Resets
@@ -25,22 +27,23 @@
 /* Layout
 -------------------------------------------------------------- */
 #page-wrap {
-  min-width: 1000px;
+  min-width: 400px;
+  background-color: <?php echo $color3; ?>;
 }
 #header {
-  background-color: <?php echo $head_foot_bg; ?>;
+  background-color: <?php echo $color1; ?>;
   padding: 20px;
   text-align: center;
 }
 #navigation {
-  background-color: <?php echo $navigation_bg; ?>;
-  border-top: 1px solid <?php echo $navigation_fg; ?>;
+  background-color: <?php echo $color2; ?>;
+  border-top: 1px solid <?php echo $color3; ?>;
 }
 #content {
   margin: 0 10px 0 10px;
 }
 #footer {
-  background-color: <?php echo $head_foot_bg; ?>;
+  background-color: <?php echo $color1; ?>;
   padding: 20px;
   text-align: center;
 }
@@ -51,9 +54,10 @@
 /* Global elements
 -------------------------------------------------------------- */
 body {
-  background-color: <?php echo $body_bg; ?>;
+  background-color: <?php echo $color1; ?>;
   color: #000;
-  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: Georgia, serif;
+  /* font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif; */
   font-size: 16px;
 }
 
@@ -86,7 +90,7 @@ ul#nav-right li {
 }
 ul#nav-left li,
 ul#nav-right li {
-  border-bottom: 5px solid <?php echo $navigation_bg; ?>;
+  border-bottom: 5px solid <?php echo $color2; ?>;
   display: inline;
   height: 30px;
 }
@@ -98,13 +102,18 @@ ul#nav-right li a {
 }
 ul#nav-left li:hover,
 ul#nav-right li:hover {
-  border-bottom: 5px solid <?php echo $navigation_fg_hover; ?>;
+  border-bottom: 5px solid <?php echo $color1; ?>;
+}
+ul#nav-left li a:hover,
+ul#nav-right li a:hover {
+  color: <?php echo $color4; ?>;
 }
 
 /* Footer elements
 -------------------------------------------------------------- */
 #footer p {
   font-size: 75%;
+  line-height: 140%;
 }
 
 /* Content elements
@@ -113,7 +122,7 @@ ul#nav-right li:hover {
 /** Section elements
 -------------------------------------------------------------- */
 #content .section {
-  border-bottom: 3px dotted <?php echo $section_borders; ?>;
+  border-bottom: 3px dotted <?php echo $color1; ?>;
   margin: 0 20px 0 20px;
   padding: 0 0 30px 0;
 }
@@ -125,11 +134,11 @@ ul#nav-right li:hover {
 -------------------------------------------------------------- */
 a,
 a:visited {
-  color: <?php echo $body_a; ?>;
+  color: <?php echo $color5; ?>;
   text-decoration: none;
 }
 a:hover {
-  color: <?php echo $body_a_hover; ?>;
+  color: <?php echo $color6; ?>;
   text-decoration: none;
 }
 #header a,
@@ -138,23 +147,23 @@ a:hover {
 #navigation a:visited,
 #footer a,
 #footer a:visited {
-  color: <?php echo $head_foot_a; ?>;
+  color: <?php echo $color4 ?>;
 }
 #header a:hover,
 #navigation a:hover,
 #footer a:hover {
-  color: <?php echo $head_foot_a_hover; ?>;
+  color: <?php echo $color4; ?>;
 }
 
 /** List elements
 -------------------------------------------------------------- */
 #content ul {
-  list-style: disc inside;
+  list-style: disc outside;
   margin: 20px 0 0 0;
 }
 #content li {
-  margin: 0 0 0 10px;
-  padding: 10px 0 0 0;
+  margin: 0 0 0 30px;
+  line-height: 140%;
 }
 #content li:first-child {
   padding: 0;
@@ -167,8 +176,8 @@ a:hover {
   font-weight: bold;
   margin: 20px 0 0 0;
   padding: 10px;
-  background-color: <?php echo $head_foot_bg; ?>;
-  color: <?php echo $navigation_fg; ?>;
+  background-color: <?php echo $color5; ?>;
+  color: <?php echo $color3; ?>;
 }
 #content h4 {
   background: url('/images/bullet.png') no-repeat scroll 0 100%;
@@ -193,7 +202,7 @@ a:hover {
 /** Syntaxhighlighter
 -------------------------------------------------------------- */
 #content .syntaxhighlighter {
-  border: 2px solid <?php echo $head_foot_bg; ?>;
+  border: 2px solid <?php echo $color1; ?>;
   margin: 20px 0 0 0 !important;
   padding: 3px !important;
   width: 99% !important;

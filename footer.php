@@ -1,8 +1,5 @@
       <div id="footer">
-        <p>
-          &copy; 2010, 2011 by <a href="http://monkey-coder.com">Thomas Vollath</a><br />
-          <a href="http://monkey-coder.com/framework">Simple Framework</a>
-        </p>
+        <p>&copy; 2010, 2011 by <a href="http://monkey-coder.com">monkey-coder.com</a></p>
       </div>
       
     </div>
