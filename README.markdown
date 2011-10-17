@@ -1,13 +1,12 @@
-Simple Framework ¯\_(ツ)_/¯
+Simple Framework ¯\_(ツ)_/¯  
 
-Version: 0.4.3
-Author: Thomas Vollath (aka tomthorgal)
-License: Have fun!
-Website: http://monkey-coder.com/
-Source: https://tomthorgal@github.com/tomthorgal/simple-framework.git
+Version: 0.4.3  
+Author: Thomas Vollath (aka tomthorgal)  
+License: Have fun!  
+Website: http://monkey-coder.com/  
+Source: https://tomthorgal@github.com/tomthorgal/simple-framework.git  
 
-Installation:
-==================================================
+===Installation:===
 
 Clone the source form github  
 `git clone git@github.com:tomthorgal/simple-framework.git`
