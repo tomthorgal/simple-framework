@@ -4,10 +4,8 @@
         <div class="section">
           <h3>What and Why?</h3>
           <p>Hi, my name is Thomas Vollath (aka tomthorgal) and I am a programmer.</p>
-          <p>I usually spend my time programming web applications in Ruby on Rails, PHP, and RPG. I also have a lot of experience with Javascript, HTML, and CSS, but I don't consider myself a front-end designer. I get the job done if needed, but there are many more talented - and real - designers out there.</p>
           <p>For my daily job(s) I often need to setup a quick website, if it's to track a new project and keep everyone informed about it, a quick photo album, or just a site to share some code between developers, I often find myself making very simple static websites.</p>
-          <p>I don't always have the need to use an engine like Wordpress, Joomla, Django, or any other of the 
-great open source website frameworks that you can download because not everything needs to be database driven or have user accounts, replies, and tags.</p>
+          <p>I don't always have the need to use an engine like Wordpress, Joomla, Django, or any other of the great open source website frameworks that you can download because not everything needs to be database driven or have user accounts, replies, and tags.</p>
           <p>I created this framework for this purpose. This framework is very simple in functionality, and quick to setup for a new project or whatever is asked of me to put together in a hurry :)</p>
           <p>This simple framework comes with components that I use the most for the sites I setup for my projects:
             <ul>

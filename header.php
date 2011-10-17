@@ -40,6 +40,7 @@
         });
       });
     </script>
+    <!-- Google Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-15918863-10']);
@@ -50,6 +51,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <!-- end Google Analytics -->
     
   </head>
   <body>

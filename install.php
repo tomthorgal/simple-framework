@@ -33,6 +33,8 @@
               </pre>
             </li>
             <li>Replace the <code>logo.png</code> with your logo.</li>
+            <li>Replace or delete the <code>&lt;script&gt;</code> section in the <code>header.php</code> that is 
+for google analytics.</li>
           </ul>
           <p>Thats it, quick and painless :)</p>
           <p><strong>If you have any issues, please report them on <a href="https://github.com/tomthorgal/simple-framework/issues/new">github</a>.</strong></p>
