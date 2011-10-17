@@ -34,3 +34,5 @@ Update the header.php navigation links:
     </ul>
 
 Replace the `logo.png` with your logo.  
+
+Replace or delete the `<script>` section in the `header.php` that is for google analytics.  
