@@ -6,7 +6,7 @@ License: Have fun!
 Website: http://monkey-coder.com/  
 Source: https://tomthorgal@github.com/tomthorgal/simple-framework.git  
 
-===Installation:===
+####Installation:####
 
 Clone the source form github  
 `git clone git@github.com:tomthorgal/simple-framework.git`
