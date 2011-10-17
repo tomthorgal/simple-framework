@@ -4,7 +4,7 @@ Version: 0.4.3
 Author: Thomas Vollath (aka tomthorgal)  
 License: Have fun!  
 Website: http://monkey-coder.com/  
-Source: https://tomthorgal@github.com/tomthorgal/simple-framework.git  
+Source: https://github.com/tomthorgal/simple-framework    
 
 ####Installation:####
 
