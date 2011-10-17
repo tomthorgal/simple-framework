@@ -1,5 +1,5 @@
       <div id="footer">
-        <p>&copy; 2010, 2011 by <a href="http://monkey-coder.com">monkey-coder.com</a></p>
+        <p>Made by <a href="http://monkey-coder.com">monkey-coder.com</a> (2010, 2011) &bull; <a href="https://github.com/tomthorgal/simple-framework">Find me on github</a></p>
       </div>
       
     </div>

@@ -18,6 +18,7 @@
   $color4 = '#FFFFFF'; /* white; eg: well, white as in white */
   $color5 = '#73895D'; /* dark gray green; eg: contents hyperlinks */
   $color6 = '#CB842E'; /* dark gray orange; eg: contents hyperlinks hover */
+  $color7 = '#DDDDDD'; /* light gray; eg: <code> bg */
 ?>
 
 /* Resets
@@ -27,7 +28,7 @@
 /* Layout
 -------------------------------------------------------------- */
 #page-wrap {
-  min-width: 400px;
+  min-width: 460px;
   background-color: <?php echo $color3; ?>;
 }
 #header {
@@ -59,6 +60,22 @@ body {
   font-family: Georgia, serif;
   /* font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif; */
   font-size: 16px;
+}
+code {
+  padding: 0 5px;
+  font-family: Consolas, monospace;
+  background-color: <?php echo $color7; ?>;
+}
+small {
+  font-size: 80%;
+  font-style: italic;
+}
+abbr {
+  border-bottom: 1px dotted <?php echo $color5; ?>;
+  cursor: help;
+}
+strong {
+  font-weight: bold;
 }
 
 /* Header elements
@@ -123,8 +140,8 @@ ul#nav-right li a:hover {
 -------------------------------------------------------------- */
 #content .section {
   border-bottom: 3px dotted <?php echo $color1; ?>;
-  margin: 0 20px 0 20px;
-  padding: 0 0 30px 0;
+  margin: 0 20px;
+  padding: 0 0 15px 0;
 }
 #content .section:last-child {
   border-bottom: none;
@@ -159,11 +176,11 @@ a:hover {
 -------------------------------------------------------------- */
 #content ul {
   list-style: disc outside;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 #content li {
   margin: 0 0 0 30px;
-  line-height: 140%;
+  line-height: 160%;
 }
 #content li:first-child {
   padding: 0;
@@ -183,13 +200,14 @@ a:hover {
   background: url('/images/bullet.png') no-repeat scroll 0 100%;
   font-size: 125%;
   font-weight: bold;
-  padding: 30px 0 0 20px;
+  padding: 15px 0 0 20px;
 }
 
 /** Paragraph elements
 -------------------------------------------------------------- */
 #content p {
-  margin: 20px 0 0 0;
+  margin: 15px 0 0 0;
+  line-height: 120%;
 }
 
 /** Image elements
@@ -202,8 +220,11 @@ a:hover {
 /** Syntaxhighlighter
 -------------------------------------------------------------- */
 #content .syntaxhighlighter {
-  border: 2px solid <?php echo $color1; ?>;
-  margin: 20px 0 0 0 !important;
+  border: 1px solid <?php echo $color1; ?>;
+  margin: 10px 0 0 0 !important;
   padding: 3px !important;
   width: 99% !important;
+}
+#content li .syntaxhighlighter {
+  margin: 5px 0 !important; 
 }

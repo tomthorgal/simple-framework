@@ -2,10 +2,17 @@
 
       <div id="content">
         <div class="section">
+          <p><strong>If you have any issues, please report them on <a href="https://github.com/tomthorgal/simple-framework/issues/new">github</a>.</strong></p>
+        </div>
+        <div class="section">
           <h4>version 0.4.3 &raquo; 10/16/2011</h4>
           <ul>
             <li>made the css and page more responsive</li>
-            <li>min-width of the page is now 400px. if you get rid of the syntax highlighter or just don't ever use it, then you can get rid of the min-width property for #page-wrap and make it a fully responsive design, but for now syntax highlighter needs a minimum width</li>
+            <li>min-width of the page is now 460px. if you get rid of the syntax highlighter or just don't ever use it, then you can get rid of the min-width property for #page-wrap and make it a fully responsive design, but for now syntax highlighter needs a minimum width</li>
+            <li>changed the viewport meta tag to default to 0.7 which works very nicely on my android, needs some testing on other devices</li>
+            <li>moved this change log to it's own page</li>
+            <li>added some text to the home page</li>
+            <li>added some basic installation instructions to a new page called install</li>
           </ul>
         </div>
         <div class="section">
@@ -81,9 +88,9 @@
           <h4>version 0.2 &raquo; 09/20/2010</h4>
           <ul>
             <li>implemented fancybox (<a href="http://fancybox.net/">http://fancybox.net/</a>)</li>
-            <li>example image:</li>
+            <li>example image (photo credit: <a href="http://www.flickr.com/people/kharied/">katie harris</a>):</li>
           </ul>
-          <a id="inline" title="example picture" href="images/example.jpg">
+          <a id="inline" title='photo credit: <a href="http://www.flickr.com/people/kharied/">katie harris</a>' href="images/example.jpg">
             <img src="images/example-tn.jpg" alt="example picture" />
           </a>
         </div>
