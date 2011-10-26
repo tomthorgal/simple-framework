@@ -44,6 +44,7 @@
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-15918863-10']);
+      _gaq.push(['_setDomainName', 'monkey-coder.com']);
       _gaq.push(['_trackPageview']);
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
