@@ -8,7 +8,7 @@
   /* Why the heck do you have the $base_url in this css file?
    * I run this simple framework mostly in subfolders or subdomains
    * and it makes it much easier to use relative paths' to me. */
-  $base_url = 'http://monkey-coder.com/';
+  $base_url = 'http://simple-framework.monkey-coder.com/';
   
   /* if you don't like the undescriptive $colorX variables, just do a
    * find/replace with more descriptive names */
