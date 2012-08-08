@@ -10,11 +10,11 @@
             </li>
             <li>
               Update the <code>$base_url</code> in the <code>header.php</code> file to your <abbr title="Fully Qualified Domain Name">FQDN</abbr>:
-              <pre class="brush: php; gutter: false;">$base_url = 'http://monkey-coder.com/';</pre>
+              <pre class="brush: php; gutter: false;">$base_url = 'http://simple-framework.monkey-coder.com/';</pre>
             </li>
             <li>
               Update the <code>$base_url</code> in the <code>style.php</code> file to your <abbr title="Fully Qualified Domain Name">FQDN</abbr>:
-              <pre class="brush: php; gutter: false;">$base_url = 'http://monkey-coder.com/';</pre>
+              <pre class="brush: php; gutter: false;">$base_url = 'http://simple-framework.monkey-coder.com/';</pre>
             </li>
             <li>Update the <code>style.php</code> color section with your color scheme.</li>
             <li>Replace/remove <code>install.php</code> and <code>changelog.php</code>, as well as replace the content of the <code>index.php</code> file to fit your needs.</li>
