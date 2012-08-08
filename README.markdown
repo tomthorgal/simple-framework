@@ -3,7 +3,7 @@ Simple Framework ¯\_(ツ)_/¯
 Version: 0.4.3  
 Author: Thomas Vollath (aka tomthorgal)  
 License: Have fun!  
-Website: http://monkey-coder.com/  
+Website: http://simple-framework.monkey-coder.com/  
 Source: https://github.com/tomthorgal/simple-framework    
 
 ####Installation:####
@@ -12,10 +12,10 @@ Clone the source form github
 `git clone git@github.com:tomthorgal/simple-framework.git`
 
 Update the $base_url in the header.php file to your FQDN:  
-`$base_url = 'http://monkey-coder.com/';`
+`$base_url = 'http://simple-framework.monkey-coder.com/';`
 
 Update the $base_url in the style.php file to your FQDN:  
-`$base_url = 'http://monkey-coder.com/';`
+`$base_url = 'http://simple-framework.monkey-coder.com/';`
 
 Update the `style.php` color section with your color scheme.  
 

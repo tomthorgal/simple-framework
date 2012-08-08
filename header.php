@@ -1,5 +1,5 @@
 <?php
-  $base_url = 'http://monkey-coder.com/';
+  $base_url = 'http://simple-framework.monkey-coder.com/';
 ?>
 
 <!DOCTYPE html>
